@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Site Notes",
+  "version": "1.0.0",
+  "description": "Заметки, привязанные к сайтам",
+  "action": {
+    "default_title": "Site Notes",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "free-icon-document-11081232.png",
+      "96": "free-icon-document-11081232.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "48": "free-icon-document-11081232.png",
+    "96": "free-icon-document-11081232.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "sitenotes@local",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
